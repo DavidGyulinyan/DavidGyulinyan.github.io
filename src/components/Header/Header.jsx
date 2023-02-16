@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import "./Header.css"
 function Header() {
-
+    
     /* Toggle Menu */
+
     const [showMenu, setShowMenu] = useState(false)
 
 
@@ -57,10 +58,10 @@ function Header() {
                         </li>
                     </ul>
 
-                    <i className="uil uil-times nav__close" onClick={() => showMenu(!showMenu)}></i>
+                    <i className="uil uil-times nav__close" onClick={() => setShowMenu(!showMenu)}></i>
                 </div>
 
-                <div className="nav__toggle" onClick={() => showMenu(!showMenu)}>
+                <div className="nav__toggle" onClick={() => setShowMenu(!showMenu)}>
                     <i className="uil uil-apps"></i>
                 </div>
             </nav>
