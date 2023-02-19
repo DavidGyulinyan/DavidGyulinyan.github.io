@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./Header.css"
 function Header() {
-    
+
     /* Toggle Menu */
 
     const [showMenu, setShowMenu] = useState(false)
@@ -12,7 +12,11 @@ function Header() {
             <nav className="nav container">
                 <a href="index.html" className="nav__logo">David</a>
 
-                <div className={showMenu ? "nav__menu show-menu" : "nav__menu"}>
+                <div className={
+                    showMenu
+                        ? "nav__menu show-menu"
+                        : "nav__menu"
+                }>
                     <ul className="nav__list grid">
 
                         <li className="nav__item">

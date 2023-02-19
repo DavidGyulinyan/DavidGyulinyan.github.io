@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Skills.css"
-import Frontend from './Frontend'
-import Backend from './Backend'
+import Frontend from './SkillsCol2'
+import Backend from './SkillsCol1'
 
 function Skills() {
     return (
