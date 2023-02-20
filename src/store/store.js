@@ -79,4 +79,21 @@ export const store = {
     ],
 
 
+    contact:[
+
+        {
+            id: 1,
+            buttonTxt:"Email",
+            data:"gyulinyand@gmail.com",
+            link:"mailto:examplemail@gmail.com.com"
+        },
+
+        {
+            id: 2,
+            buttonTxt:"Telegram",
+            data:"+374 41855800",
+            link:"https://web.telegram.org/k/#@DavidGyulinyan"
+        }
+
+    ]
 }
