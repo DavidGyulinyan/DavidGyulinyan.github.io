@@ -8,7 +8,7 @@
     /* colors */
     --hue: 0;
     --sat: 0%;
-    --title-color: hsl(var(--hue), var(--sat), 20%);
+    --title-color: hsl(var(--hue), var(--sat), 35%);
     --title-color-dark: hsl(var(--hue), var(--sat), 0%);
     --text-color: hsl(var(--hue), var(--sat), 46%);
     --body-color: hsl(var(--hue), var(--sat), 98%);
@@ -181,7 +181,7 @@ img {
     }
 
     .button {
-      padding: 1rem 1.75rem; 
+      padding: 1rem 1.75rem;
     }
 
     .button__icon {

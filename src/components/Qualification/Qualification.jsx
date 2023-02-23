@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+import React, {useState} from 'react'
 import "./Qualification.css"
+
 function Qualification() {
 
     const [toggleState, setToggleState] = useState(1)
@@ -8,8 +9,7 @@ function Qualification() {
         setToggleState(index)
     }
 
-    return (
-        <section className="qualification section">
+    return (<section className="qualification section">
             <h2 className="section__title">Qualification</h2>
             <span className="section__subtitle">My personal journey
             </span>
@@ -17,11 +17,8 @@ function Qualification() {
             <div className="qualification__container container">
                 <div className="qualification__tabs">
 
-                    <div className={
-                        toggleState === 1
-                            ? "qualification__button qualification__active button--flex"
-                            : "qualification__button button--flex"
-                    }
+                    <div
+                        className={toggleState === 1 ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"}
 
                         onClick={() => toggleTab(1)}
                     >
@@ -29,11 +26,8 @@ function Qualification() {
                         <i className="uil uil-graduation-cap qualification__icon"></i> Education
                     </div>
 
-                    <div className={
-                        toggleState === 2
-                            ? "qualification__button qualification__active button--flex"
-                            : "qualification__button button--flex"
-                    }
+                    <div
+                        className={toggleState === 2 ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"}
 
                         onClick={() => toggleTab(2)}
                     >
@@ -42,11 +36,8 @@ function Qualification() {
                 </div>
 
                 <div className="qualification__sections">
-                    <div className={
-                        toggleState === 1
-                            ? "qualification__content qualification__content-active"
-                            : "qualification__content"
-                    }>
+                    <div
+                        className={toggleState === 1 ? "qualification__content qualification__content-active" : "qualification__content"}>
 
 
                         {/*//////////////////// Qualification Data 1*/}
@@ -88,11 +79,8 @@ function Qualification() {
                 </div>
 
                 <div className="qualification__sections">
-                    <div className={
-                        toggleState === 2
-                            ? "qualification__content qualification__content-active"
-                            : "qualification__content"
-                    }>
+                    <div
+                        className={toggleState === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
 
                         {/*//////////////////// Qualification Data 3*/}
                         <div className="qualification__data">
@@ -133,8 +121,7 @@ function Qualification() {
                     </div>
                 </div>
             </div>
-        </section>
-    )
+        </section>)
 }
 
 export default Qualification
