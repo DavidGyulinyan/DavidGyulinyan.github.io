@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, {useState} from 'react'
 import "./Services.css"
 
 function Services() {
@@ -9,8 +9,7 @@ function Services() {
         setToggleState(index)
     }
 
-    return (
-        <section className="services section" id="services">
+    return (<section className="services section" id="services">
             <h2 className="section__title">Services</h2>
             <span className="section__subtitle">What I offer</span>
 
@@ -19,7 +18,7 @@ function Services() {
                     <div>
                         <i className="uil uil-web-grid services__icon">
                             <h3 className="services__title">
-                                Product <br /> Designer
+                                Product <br/> Designer
                             </h3>
                         </i>
                     </div>
@@ -29,11 +28,7 @@ function Services() {
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </span>
 
-                    <div className={
-                        toggleState === 1
-                            ? "services__modal active-modal"
-                            : "services__modal"
-                    }>
+                    <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
                         <div className="services__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
@@ -41,7 +36,8 @@ function Services() {
                                 Product Designer
                             </h3>
                             <p className="services__modal-description">
-                                Service with more than 1 years of experience. Providing quality work to clients and companies.
+                                Service with more than 1 years of experience. Providing quality work to clients and
+                                companies.
                             </p>
 
                             <ul className="services__modal-services grid">
@@ -89,7 +85,7 @@ function Services() {
                     <div>
                         <i className="uil uil-arrow services__icon">
                             <h3 className="services__title">
-                                Ui/Ux <br /> Designer
+                                Ui/Ux <br/> Designer
                             </h3>
                         </i>
                     </div>
@@ -99,11 +95,7 @@ function Services() {
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </span>
 
-                    <div className={
-                        toggleState === 2
-                            ? "services__modal active-modal"
-                            : "services__modal"
-                    }>
+                    <div className={toggleState === 2 ? "services__modal active-modal" : "services__modal"}>
 
                         <div className="services__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
@@ -112,7 +104,8 @@ function Services() {
                                 Ui/Ux Designer
                             </h3>
                             <p className="services__modal-description">
-                                Service with more than 2 years of experience. Providing quality work to clients and companies.
+                                Service with more than 2 years of experience. Providing quality work to clients and
+                                companies.
                             </p>
 
                             <ul className="services__modal-services grid">
@@ -160,7 +153,7 @@ function Services() {
                     <div>
                         <i className="uil uil-edit services__icon">
                             <h3 className="services__title">
-                                Visual <br /> Designer
+                                Visual <br/> Designer
                             </h3>
                         </i>
                     </div>
@@ -170,11 +163,7 @@ function Services() {
                         <i className="uil uil-arrow-right services__button-icon"></i>
                     </span>
 
-                    <div className={
-                        toggleState === 3
-                            ? "services__modal active-modal"
-                            : "services__modal"
-                    }>
+                    <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
                         <div className="services__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
@@ -182,7 +171,8 @@ function Services() {
                                 Visual Designer
                             </h3>
                             <p className="services__modal-description">
-                                Service with more than 3 years of experience. Providing quality work to clients and companies.
+                                Service with more than 3 years of experience. Providing quality work to clients and
+                                companies.
                             </p>
 
                             <ul className="services__modal-services grid">
@@ -226,8 +216,7 @@ function Services() {
                     </div>
                 </div>
             </div>
-        </section>
-    )
+        </section>)
 }
 
 export default Services

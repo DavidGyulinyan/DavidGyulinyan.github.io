@@ -1,8 +1,7 @@
 import React from 'react'
 
 function Data() {
-    return (
-        <div className="home__data">
+    return (<div className="home__data">
             <h1 className="home__title">David
                 <svg
                     width="36"
