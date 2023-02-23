@@ -19,6 +19,7 @@ export const store = {
             id: 3,
             href: "https://github.com/DavidGyulinyan?tab=repositories",
             Icon: <i className="uil uil-github-alt"/>,
+
         },
     ],
     infos: [
@@ -121,6 +122,7 @@ export const store = {
     ],
 
 
+
     menus: [
         {
             id: 1,
@@ -128,6 +130,7 @@ export const store = {
             Icon: <i className="uil uil-estate nav__icon"/>,
             title: "Home",
             activeNav: "#home"
+
         },
         {
             id: 2,
@@ -135,6 +138,7 @@ export const store = {
             Icon: <i className="uil uil-user nav__icon"/>,
             title: "About",
             activeNav: "#about"
+
         },
         {
             id: 3,
@@ -142,6 +146,7 @@ export const store = {
             Icon: <i className="uil uil-file-alt nav__icon"/>,
             title: "Skills",
             activeNav: "#skills"
+
         },
         {
             id: 4,
@@ -149,6 +154,7 @@ export const store = {
             Icon: <i className="uil uil-briefcase-alt nav__icon"/>,
             title: "Services",
             activeNav: "#services"
+
         },
         {
             id: 5,
@@ -156,6 +162,7 @@ export const store = {
             Icon: <i className="uil uil-scenery nav__icon"/>,
             title: "Portfolio",
             activeNav: "#portfolio"
+
         },
         {
             id: 6,
@@ -216,6 +223,7 @@ export const store = {
             name: "name",
             placeholder: "Insert your name",
             label: "Name",
+
         },
 
         {
@@ -247,3 +255,4 @@ export const store = {
     ]
 
 };
+

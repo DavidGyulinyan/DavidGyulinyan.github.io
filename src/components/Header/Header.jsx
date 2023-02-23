@@ -47,7 +47,6 @@ const Header = () => {
                 <i className="uil uil-apps"/>
             </div>
         </nav>
-
     </header>)
 }
 

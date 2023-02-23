@@ -1,7 +1,6 @@
 import React from 'react'
 import {store} from "../../store/store";
 
-
 function Info() {
     return (<div className="about__info grid">
             {store.infos.map(info => {
