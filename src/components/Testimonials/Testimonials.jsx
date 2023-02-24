@@ -12,8 +12,12 @@ import "swiper/css/pagination";
 // import required modules
 import {Pagination} from "swiper";
 
+
+const {testimonials} = store
+
 function Testimonials() {
-    return (<section className="testimonial container section">
+    return (
+        <section className="testimonial container section">
             <h2 className="section__title">My clients say</h2>
             <span className="section__subtitle">Reviewes</span>
 
@@ -22,34 +26,38 @@ function Testimonials() {
                 loop={true}
                 grabCursor={true}
                 spaceBetween={24}
-                pagination={{
-                    clickable: true,
-                }}
-                breakpoints={{
-                    576: {
-                        slidesPerView: 2,
-                    }, 768: {
-                        slidesPerView: 2, spaceBetween: 48,
-                    },
-                }}
+                pagination={{clickable: true}}
+                breakpoints={
+                    {
+                        576: {slidesPerView: 2},
+                        768: {
+                            slidesPerView: 2,
+                            spaceBetween: 48
+                        },
+                    }
+                }
                 modules={[Pagination]}
             >
-                {store.testimonials.map(testimonials => {
-                    return (<SwiperSlide className="testimonial__card" key={testimonials.id}>
-                            <img
-                                src={testimonials.image}
-                                alt=""
-                                className="testimonail__img"
-                            />
+                {
+                    testimonials.map(testimonial => {
+                        return (
+                            <SwiperSlide className="testimonial__card" key={testimonial.id}>
+                                <img
+                                    src={testimonial.image}
+                                    alt={testimonial.image + testimonial.id}
+                                    className="testimonail__img"
+                                />
 
-                            <h3 className="testimonial__name">{testimonials.title}</h3>
-                            <p className="testimonial__description">
-                                {testimonials.description}
-                            </p>
-                        </SwiperSlide>);
-                })}
+                                <h3 className="testimonial__name">{testimonial.title}</h3>
+                                <p className="testimonial__description">
+                                    {testimonial.description}
+                                </p>
+                            </SwiperSlide>
+                        );
+                    })}
             </Swiper>
-        </section>);
+        </section>
+    );
 }
 
 export default Testimonials;

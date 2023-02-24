@@ -19,7 +19,6 @@ export const store = {
             id: 3,
             href: "https://github.com/DavidGyulinyan?tab=repositories",
             Icon: <i className="uil uil-github-alt"/>,
-
         },
     ],
     infos: [
@@ -42,87 +41,6 @@ export const store = {
             sub_title: "Online 24/7",
         },
     ],
-
-    skillsData: [
-
-        {
-            id: 1,
-            title: "JavaScript"
-        },
-
-        {
-            id: 2,
-            title: "React JS"
-        },
-
-        {
-            id: 3,
-            title: "Redux"
-        },
-
-    ],
-
-
-    skillSystem: [
-
-        {
-            id: 1,
-            title: "Responsive Design"
-        },
-
-        {
-            id: 2,
-            title: "UI/UX"
-        },
-
-        {
-            id: 3,
-            title: "Figma"
-        },
-
-
-    ],
-
-    skillSystem2: [
-
-        {
-            id: 1,
-            title: "SCSS"
-        },
-
-        {
-            id: 2,
-            title: "Time management"
-        },
-
-        {
-            id: 3,
-            title: "Digital marketing"
-        },
-
-    ],
-
-    skillsData2: [
-
-        {
-            id: 1,
-            title: "HTML5"
-        },
-
-        {
-            id: 2,
-            title: "CSS3"
-        },
-
-        {
-            id: 3,
-            title: "SASS"
-        },
-
-    ],
-
-
-
     menus: [
         {
             id: 1,
@@ -130,7 +48,6 @@ export const store = {
             Icon: <i className="uil uil-estate nav__icon"/>,
             title: "Home",
             activeNav: "#home"
-
         },
         {
             id: 2,
@@ -138,7 +55,6 @@ export const store = {
             Icon: <i className="uil uil-user nav__icon"/>,
             title: "About",
             activeNav: "#about"
-
         },
         {
             id: 3,
@@ -146,7 +62,6 @@ export const store = {
             Icon: <i className="uil uil-file-alt nav__icon"/>,
             title: "Skills",
             activeNav: "#skills"
-
         },
         {
             id: 4,
@@ -154,7 +69,6 @@ export const store = {
             Icon: <i className="uil uil-briefcase-alt nav__icon"/>,
             title: "Services",
             activeNav: "#services"
-
         },
         {
             id: 5,
@@ -162,7 +76,6 @@ export const store = {
             Icon: <i className="uil uil-scenery nav__icon"/>,
             title: "Portfolio",
             activeNav: "#portfolio"
-
         },
         {
             id: 6,
@@ -172,11 +85,11 @@ export const store = {
             activeNav: "#contact"
         },
     ],
-
     testimonials: [
         {
             id: 1,
             image: Image1,
+            alt: "image 1",
             title: "Jhon Doe",
             description:
                 "A really good job, all aspects of the project were followed step by step and with good results.",
@@ -184,6 +97,7 @@ export const store = {
         {
             id: 2,
             image: Image2,
+            alt: "image 2",
             title: "Harry Clinton",
             description:
                 "A really good job, all aspects of the project were followed step by step and with good results.",
@@ -191,12 +105,12 @@ export const store = {
         {
             id: 3,
             image: Image3,
+            alt: "image 3",
             title: "Sara Cill",
             description:
                 "A really good job, all aspects of the project were followed step by step and with good results.",
         },
     ],
-
     contact: [
         {
             id: 1,
@@ -205,7 +119,6 @@ export const store = {
             data: "gyulinyand@gmail.com",
             link: "mailto:examplemail@gmail.com.com",
         },
-
         {
             id: 2,
             className: "bxl-telegram",
@@ -214,18 +127,14 @@ export const store = {
             link: "https://web.telegram.org/k/#@DavidGyulinyan",
         },
     ],
-
     input: [
-
         {
             id: 1,
             type: "text",
             name: "name",
             placeholder: "Insert your name",
             label: "Name",
-
         },
-
         {
             id: 2,
             type: "email",
@@ -233,26 +142,189 @@ export const store = {
             placeholder: "Insert your email",
             label: "Email"
         },
-
     ],
-
     footerMenuItems: [
-
         {
             id: 1,
             title: "About"
         },
-
         {
             id: 2,
             title: "Projects"
         },
-
         {
             id: 3,
             title: "Testimonials"
         },
+    ],
+    modalService: [
+        {
+            id: 1,
+            title: `Product Designer`,
+            title2: "Product Designer",
+            description: "Service with more than 1 years of experience. Providing quality work to clients and companies.",
+            classType: "uil-web-grid",
+            modalServiceItems: [
+                {
+                    id: 1,
+                    text: "I develop the user interface.",
+                },
+                {
+                    id: 2,
+                    text: "Web page development.",
+                },
+                {
+                    id: 3,
+                    text: "I create ux element interactions.",
+                },
+                {
+                    id: 4,
+                    text: "I position your company brand.",
+                },
+                {
+                    id: 5,
+                    text: "I position your company brand.",
+                },
+            ]
+        },
+        {
+            id: 2,
+            title: `Ui/Ux \n Designer`,
+            title2: "Ui/Ux Designer",
+            description: "Service with more than 2 years of experience. Providing quality work to clients and companies.",
+            classType: "uil-arrow",
+            modalServiceItems: [
+                {
+                    id: 1,
+                    text: "I develop the user interface.",
+                },
+                {
+                    id: 2,
+                    text: "Web page development.",
+                },
+                {
+                    id: 3,
+                    text: "I create ux element interactions.",
+                },
+                {
+                    id: 4,
+                    text: "I position your company brand.",
+                },
+                {
+                    id: 5,
+                    text: "I position your company brand.",
+                },
+            ]
+        },
+        {
+            id: 3,
+            title: `Visual \n Designer`,
+            title2: "Visual Designer",
+            description: "Service with more than 3 years of experience. Providing quality work to clients and companies.",
+            classType: "uil-edit",
+            modalServiceItems: [
+                {
+                    id: 1,
+                    text: "I develop the user interface.",
+                },
+                {
+                    id: 2,
+                    text: "Web page development.",
+                },
+                {
+                    id: 3,
+                    text: "I create ux element interactions.",
+                },
+                {
+                    id: 4,
+                    text: "I position your company brand.",
+                },
+                {
+                    id: 5,
+                    text: "I position your company brand.",
+                },
+            ]
+        },
+    ],
+    skills: [
+        {
+            id: 1,
+            skillGroup: [
+                {
+                    id: 1,
+                    data: [
+                        {
+                            id: 1,
+                            title: "JavaScript"
+                        },
+                        {
+                            id: 2,
+                            title: "React JS"
+                        },
+                        {
+                            id: 3,
+                            title: "Redux"
+                        },
+                    ],
+                },
+                {
+                    id: 2,
+                    data: [
+                        {
+                            id: 1,
+                            title: "Responsive Design"
+                        },
+                        {
+                            id: 2,
+                            title: "UI/UX"
+                        },
+                        {
+                            id: 3,
+                            title: "Figma"
+                        },
+                    ],
+                },
+            ]
+        },
+        {
+            id: 2,
+            skillGroup: [
+                {
+                    id: 3,
+                    data: [
+                        {
+                            id: 1,
+                            title: "HTML5"
+                        },
+                        {
+                            id: 2,
+                            title: "CSS3"
+                        },
+                        {
+                            id: 3,
+                            title: "SASS"
+                        },
+                    ],
+                },
+                {
+                    id: 4,
+                    data: [
+                        {
+                            id: 1,
+                            title: "SCSS"
+                        },
+                        {
+                            id: 2,
+                            title: "Time management"
+                        },
+                        {
+                            id: 3,
+                            title: "Digital marketing"
+                        },
+                    ],
+                },
+            ]
+        }
     ]
-
 };
 
