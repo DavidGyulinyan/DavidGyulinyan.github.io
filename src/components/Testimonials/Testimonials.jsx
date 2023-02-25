@@ -1,15 +1,9 @@
 import React from "react";
 import "./Testimonials.css";
 import {store} from "../../store/store";
-// Import Swiper React components
 import {Swiper, SwiperSlide} from "swiper/react";
-
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-
-// import required modules
 import {Pagination} from "swiper";
 
 
@@ -29,10 +23,10 @@ function Testimonials() {
                 pagination={{clickable: true}}
                 breakpoints={
                     {
-                        576: {slidesPerView: 2},
+                        576: {slidesPerView: 1},
                         768: {
                             slidesPerView: 2,
-                            spaceBetween: 48
+                            spaceBetween: 48,
                         },
                     }
                 }
@@ -45,7 +39,7 @@ function Testimonials() {
                                 <img
                                     src={testimonial.image}
                                     alt={testimonial.image + testimonial.id}
-                                    className="testimonail__img"
+                                    className="testimonial__img"
                                 />
 
                                 <h3 className="testimonial__name">{testimonial.title}</h3>
