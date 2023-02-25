@@ -1,7 +1,15 @@
 import React from "react";
-import Image1 from "../assets/testimonial1.png"
-import Image2 from "../assets/testimonial2.png"
-import Image3 from "../assets/testimonial3.png"
+import Image1 from "../assets/testimonial1.jpg";
+import Image2 from "../assets/testimonial2.png";
+import Image3 from "../assets/testimonial3.jpg";
+import Image4 from "../assets/testimonial4.jpg";
+
+import Work1 from "../assets/work1.jpg";
+import Work2 from "../assets/work2.jpg";
+import Work3 from "../assets/work3.jpg";
+import Work4 from "../assets/work4.jpg";
+import Work5 from "../assets/work5.jpg";
+
 
 export const store = {
     socials: [
@@ -90,17 +98,17 @@ export const store = {
             id: 1,
             image: Image1,
             alt: "image 1",
-            title: "Jhon Doe",
+            title: "Dmitri Dyachkov",
             description:
-                "A really good job, all aspects of the project were followed step by step and with good results.",
+                "David is a highly skilled and dedicated React developer who brings a wealth of knowledge and expertise to every project he works on. He is a great team player and always goes above and beyond to ensure that his work meets the project's goals and requirements. David's attention to detail and commitment to excellence make him a valuable asset to any development team.",
         },
         {
             id: 2,
             image: Image2,
             alt: "image 2",
-            title: "Harry Clinton",
+            title: "Marry Clinton",
             description:
-                "A really good job, all aspects of the project were followed step by step and with good results.",
+                "Working with David has been an absolute pleasure. He have a deep understanding of React and was able to bring our complex UI designs to life with ease. He always took the time to explain his approach and made sure we were comfortable with the direction he was taking. His attention to detail and ability to write clean, efficient code were evident in the final product. I would highly recommend David to anyone looking for a skilled and reliable React developer."
         },
         {
             id: 3,
@@ -108,8 +116,17 @@ export const store = {
             alt: "image 3",
             title: "Sara Cill",
             description:
-                "A really good job, all aspects of the project were followed step by step and with good results.",
+                "I was impressed with David's ability to work collaboratively with our team. He was always open to feedback and suggestions, and his willingness to iterate and improve was evident in the quality of his work. His communication skills was also top-notch, which made it easy to work with him despite being in different time zones. I would not hesitate to work with David again in the future.",
         },
+        {
+            id: 4,
+            image: Image4,
+            alt: "image 4",
+            title: "Adam Vite",
+            description:
+                "David is an outstanding React developer who consistently delivers high-quality results. His ability to think outside the box and come up with creative solutions to challenging problems is truly impressive. He is an excellent communicator and always keeps the project stakeholders informed of his progress. I highly recommend David for any React development project.",
+        },
+
     ],
     contact: [
         {
@@ -325,6 +342,58 @@ export const store = {
                 },
             ]
         }
-    ]
+    ],
+
+    projectsData: [
+        {
+            id: 1,
+            image: Work1,
+            title: "Web design",
+            category: "web",
+        },
+        {
+            id: 2,
+            image: Work2,
+            title: "App movil",
+            category: "app",
+        },
+        {
+            id: 3,
+            image: Work3,
+            title: "Brand design",
+            category: "design",
+        },
+        {
+            id: 4,
+            image: Work4,
+            title: "App movil",
+            category: "app",
+        },
+        {
+            id: 5,
+            image: Work5,
+            title: "Web design",
+            category: "web",
+        },
+    ],
+
+    projectsNav: [
+
+        {
+            name: "all"
+        },
+
+        {
+            name: "web"
+        },
+
+        {
+            name: "app"
+        },
+
+        {
+            name: "design"
+        },
+    ],
 };
 

@@ -4,7 +4,7 @@
 
 .testimonial__card {
     background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0,0,0,0.1);
 
     padding: 1.5rem 2rem;
     border-radius: 1.5rem;
@@ -13,7 +13,6 @@
 
 .testimonial__img {
     width: 60px;
-
     border-radius: 3rem;
     margin-bottom: var(--mb-1);
 }
@@ -49,6 +48,7 @@
         padding: 1.25rem 1.5rem;
     }
 }
+
 
 
 
