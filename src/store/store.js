@@ -343,7 +343,6 @@ export const store = {
             ]
         }
     ],
-
     projectsData: [
         {
             id: 1,
@@ -376,24 +375,65 @@ export const store = {
             category: "web",
         },
     ],
-
     projectsNav: [
-
         {
+            id: 1,
             name: "all"
         },
-
         {
+            id: 2,
             name: "web"
         },
-
         {
+            id: 3,
             name: "app"
         },
-
         {
+            id: 4,
             name: "design"
         },
     ],
+    qualification: [
+        {
+            id: 1,
+            title: "Education",
+            icon_class: "uil-graduation-cap",
+            sections: [
+                {
+                    id: 1,
+                    title: "Yerevan Haybusak University",
+                    subtitle: "Bachelor's degree",
+                    text: "2012 - 2017",
+                },
+                {
+                    id: 2,
+                    title: "Marketing Manager",
+                    subtitle: "Eargir IT Center",
+                    text: "2021/06 - 2021/12",
+                },
+
+            ]
+        },
+        {
+            id: 2,
+            title: "Experience",
+            icon_class: "uil-briefcase-alt",
+            sections: [
+                {
+                    id: 1,
+                    title: "Habusak College",
+                    subtitle: "Tech Engineering",
+                    text: "2009 - 2012",
+                },
+                {
+                    id: 2,
+                    title: "Web Developer",
+                    subtitle: "Phenix Corporation",
+                    text: "2022/01 - Present",
+                },
+
+            ]
+        },
+    ]
 };
 

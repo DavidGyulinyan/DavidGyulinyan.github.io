@@ -1,20 +1,23 @@
 import React from 'react'
 import "./About.css"
-import AboutImg from "../../assets/about.jpg"
+import AboutImg from "../../assets/cvImg.jpg"
 import CV from "../../assets/Gyulinyan-CV.pdf"
 import Info from './Info'
-import {FileSvg} from "../../assets";
+import {ReactComponent as FileSvg} from "../../assets/files.svg";
+import Section from "../Section/Section";
 
 const About = () => {
     return (
-        <section className="about section" id="about">
-            <h2 className="section__title">About Me</h2>
-            <span className="section__subtitle">My introduction</span>
+        <Section
+            id="about"
+            title="About Me"
+            subtitle="My introduction"
+        >
             <div className="about__container container grid">
                 <img
                     className="about__img"
                     src={AboutImg}
-                    alt=""
+                    alt="my img"
                 />
                 <div className="about__data">
                     <Info/>
@@ -23,16 +26,16 @@ const About = () => {
                         and many clients are happy with the projects carried out.
                     </p>
                     <a
-                        download=""
+                        download="My CV"
                         href={CV}
                         className="button button--flex"
                     >
                         Download CV
-                        {/*<FileSvg/>*/}
+                        <FileSvg/>
                     </a>
                 </div>
             </div>
-        </section>
+        </Section>
     )
 }
 

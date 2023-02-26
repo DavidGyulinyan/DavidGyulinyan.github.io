@@ -2,18 +2,20 @@ import React from 'react';
 import "./Skills.css";
 import SkillsGroup from './SkillsGroup';
 import {store} from "../../store/store";
+import Section from "../Section/Section";
 
 const {skills} = store;
 
-function Skills() {
+const Skills = () => {
     return (
-        <section className="skills section" id="skills">
-            <h2 className="section__title">Skills</h2>
-            <span className="section__subtitle">My technical level</span>
+        <Section
+            id="skills"
+            title="Skills"
+            subtitle="My technical level"
+        >
             <div className="skills__container container grid">
                 {
                     skills.map(skill => {
-                        console.log(skill, "skill")
                         return (
                             <React.Fragment key={skill.id}>
                                 <SkillsGroup skillData={skill.skillGroup}/>
@@ -22,7 +24,7 @@ function Skills() {
                     })
                 }
             </div>
-        </section>
+        </Section>
     )
 }
 
