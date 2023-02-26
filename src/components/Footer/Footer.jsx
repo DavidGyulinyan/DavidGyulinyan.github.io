@@ -4,7 +4,7 @@ import {store} from "../../store/store";
 
 const {footerMenuItems, socials} = store
 
-function Footer() {
+const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer__container container">
@@ -39,8 +39,8 @@ function Footer() {
                 </div>
 
                 <span className="footer__copy">
-                &#169; David Gyulinyan. All rigths reserved
-            </span>
+                    &#169; David Gyulinyan. All rigths reserved
+                </span>
             </div>
         </footer>
     );

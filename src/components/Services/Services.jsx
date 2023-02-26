@@ -2,16 +2,18 @@ import React from 'react'
 import "./Services.css"
 import {store} from "../../store/store";
 import Modal from "../Modal/Modal";
+import Section from "../Section/Section";
 
 const {modalService} = store;
 
 const Services = () => {
 
     return (
-        <section className="services section" id="services">
-            <h2 className="section__title">Services</h2>
-            <span className="section__subtitle">What I offer</span>
-
+        <Section
+            id="services"
+            title="Services"
+            subtitle="What I offer"
+        >
             <div className="services__container container grid">
                 {
                     modalService.map(product => {
@@ -23,7 +25,7 @@ const Services = () => {
                     })
                 }
             </div>
-        </section>
+        </Section>
     )
 }
 

@@ -5,18 +5,20 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import {Pagination} from "swiper";
+import Section from "../Section/Section";
 
 
 const {testimonials} = store
 
-function Testimonials() {
+const Testimonials = () => {
     return (
-        <section className="testimonial container section">
-            <h2 className="section__title">My clients say</h2>
-            <span className="section__subtitle">Reviewes</span>
-
+        <Section
+            id="testimonials"
+            title="My clients say"
+            subtitle="Reviews"
+        >
             <Swiper
-                className="testimonials__container"
+                className="testimonials__container container"
                 loop={true}
                 grabCursor={true}
                 spaceBetween={24}
@@ -38,19 +40,19 @@ function Testimonials() {
                             <SwiperSlide className="testimonial__card" key={testimonial.id}>
                                 <img
                                     src={testimonial.image}
-                                    alt={testimonial.image + testimonial.id}
+                                    alt={testimonial.alt}
                                     className="testimonial__img"
                                 />
-
                                 <h3 className="testimonial__name">{testimonial.title}</h3>
                                 <p className="testimonial__description">
                                     {testimonial.description}
                                 </p>
                             </SwiperSlide>
                         );
-                    })}
+                    })
+                }
             </Swiper>
-        </section>
+        </Section>
     );
 }
 

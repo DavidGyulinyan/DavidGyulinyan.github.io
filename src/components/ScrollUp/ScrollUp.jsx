@@ -26,7 +26,7 @@ function ScrollUp() {
             {
                 showScroll && (
                     <button className={`scrollup ${showScroll ? "show-scroll" : ""}`} onClick={handleClick}>
-                        <i className="uil uil-arrow-up scrollup__icon"></i>
+                        <i className="uil uil-arrow-up scrollup__icon"/>
                     </button>
                 )
             }

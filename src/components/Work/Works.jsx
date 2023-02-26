@@ -5,7 +5,7 @@ import WorkItems from "./WorkItems";
 function Works() {
     const [item, setItem] = useState({name: 'all'});
     const [projects, setProjects] = useState([]);
-    const [active, setActive] = useState(0);
+    const [active, setActive] = useState(1);
 
     useEffect(() => {
         if (item.name === "all") {
@@ -29,22 +29,21 @@ function Works() {
                 {
                     store.projectsNav.map((item, index) => {
                         return (
-                            <span onClick={e => {
-                                handleClick(e, index);
-                            }} className={
-                                `${
-                                    active === index 
-                                        ? 'active-work'
-                                        : " "
-                                } work__item`} key={index}>{item.name}</span>
+                            <span
+                                onClick={e => handleClick(e, item.id)}
+                                className={`${active === item.id ? 'active-work' : " "} work__item`}
+                                key={item.id}
+                            >
+                                {item.name}
+                            </span>
                         )
                     })
                 }
             </div>
             <div className="work__container container grid">
-                {projects.map(item => {
-                    return <WorkItems item={item} key={item.id}/>
-                })}
+                {
+                    projects.map(item => <WorkItems item={item} key={item.id}/>)
+                }
             </div>
         </>
     );
