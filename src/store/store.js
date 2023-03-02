@@ -4,11 +4,11 @@ import Image2 from "../assets/testimonial2.png";
 import Image3 from "../assets/testimonial3.jpg";
 import Image4 from "../assets/testimonial4.jpg";
 
-import Work1 from "../assets/work1.jpg";
-import Work2 from "../assets/work2.jpg";
-import Work3 from "../assets/work3.jpg";
-import Work4 from "../assets/work4.jpg";
-import Work5 from "../assets/work5.jpg";
+import Work1 from "../assets/work1.png";
+import Work2 from "../assets/work2.png";
+import Work3 from "../assets/work3.png";
+import Work4 from "../assets/work4.png";
+import Work5 from "../assets/work5.png";
 
 
 export const store = {
@@ -100,7 +100,7 @@ export const store = {
             alt: "image 1",
             title: "Dmitri Dyachkov",
             description:
-                "David is a highly skilled and dedicated React developer who brings a wealth of knowledge and expertise to every project he works on. He is a great team player and always goes above and beyond to ensure that his work meets the project's goals and requirements. David's attention to detail and commitment to excellence make him a valuable asset to any development team.",
+                "Highly skilled and dedicated React developer who brings a wealth of knowledge and expertise to every project he works on. He is a great team player and always goes above and beyond to ensure that his work meets the project's goals and requirements.",
         },
         {
             id: 2,
@@ -108,7 +108,7 @@ export const store = {
             alt: "image 2",
             title: "Marry Clinton",
             description:
-                "Working with David has been an absolute pleasure. He have a deep understanding of React and was able to bring our complex UI designs to life with ease. He always took the time to explain his approach and made sure we were comfortable with the direction he was taking. His attention to detail and ability to write clean, efficient code were evident in the final product. I would highly recommend David to anyone looking for a skilled and reliable React developer."
+                "Always took the time to explain his approach and made sure we were comfortable with the direction he was taking. His attention to detail and ability to write clean, efficient code were evident in the final product. I would highly recommend David to anyone looking for a skilled and reliable React developer."
         },
         {
             id: 3,
@@ -116,7 +116,7 @@ export const store = {
             alt: "image 3",
             title: "Sara Cill",
             description:
-                "I was impressed with David's ability to work collaboratively with our team. He was always open to feedback and suggestions, and his willingness to iterate and improve was evident in the quality of his work. His communication skills was also top-notch, which made it easy to work with him despite being in different time zones. I would not hesitate to work with David again in the future.",
+                "David is always open to feedback and suggestions, and his willingness to iterate and improve was evident in the quality of his work. His communication skills was also top-notch, which made it easy to work with him despite being in different time zones. I would not hesitate to work with David again in the future.",
         },
         {
             id: 4,
@@ -124,7 +124,7 @@ export const store = {
             alt: "image 4",
             title: "Adam Vite",
             description:
-                "David is an outstanding React developer who consistently delivers high-quality results. His ability to think outside the box and come up with creative solutions to challenging problems is truly impressive. He is an excellent communicator and always keeps the project stakeholders informed of his progress. I highly recommend David for any React development project.",
+                "His ability to think outside the box and come up with creative solutions to challenging problems is truly impressive. He is an excellent communicator and always keeps the project stakeholders informed of his progress. I highly recommend David for any React development project.",
         },
 
     ],
@@ -177,88 +177,116 @@ export const store = {
     modalService: [
         {
             id: 1,
-            title: `Product Designer`,
-            title2: "Product Designer",
-            description: "Service with more than 1 years of experience. Providing quality work to clients and companies.",
+            title: `Ui/Ux \n Design`,
+            title2: "Ui/Ux Design",
+            description: "Service with more than 2 years of experience.",
             classType: "uil-web-grid",
             modalServiceItems: [
                 {
                     id: 1,
-                    text: "I develop the user interface.",
+                    text: "User research and analysis: Understanding the user's behavior, needs, and preferences through surveys, interviews, and other methods.",
                 },
                 {
                     id: 2,
-                    text: "Web page development.",
+                    text: "Wireframing and prototyping: Creating a visual representation of the user interface and interaction design.",
                 },
                 {
                     id: 3,
-                    text: "I create ux element interactions.",
+                    text: "Visual design: Developing the look and feel of the product through typography, color, layout, and other design elements.",
                 },
                 {
                     id: 4,
-                    text: "I position your company brand.",
+                    text: "User testing and feedback: Conducting usability testing and collecting feedback from users to improve the design.",
                 },
                 {
                     id: 5,
-                    text: "I position your company brand.",
+                    text: "Front-end development: Translating the design into code using HTML, CSS, and JavaScript.",
+                },
+                {
+                    id: 6,
+                    text: "Responsive design: Designing for multiple screen sizes and devices to ensure a consistent experience across platforms.",
+                },
+                {
+                    id: 7,
+                    text: "Branding and identity design: Creating a visual identity for the product or brand, including logos, colors, and typography.",
                 },
             ]
         },
         {
             id: 2,
-            title: `Ui/Ux \n Designer`,
-            title2: "Ui/Ux Designer",
-            description: "Service with more than 2 years of experience. Providing quality work to clients and companies.",
+            title: `Frontend \n Development`,
+            title2: "Frontend Development",
+            description: "Service with more than 2 years of experience.",
             classType: "uil-arrow",
             modalServiceItems: [
                 {
                     id: 1,
-                    text: "I develop the user interface.",
+                    text: "Frontend web development: Developing the client-side of web applications using HTML, CSS, and JavaScript.",
                 },
                 {
                     id: 2,
-                    text: "Web page development.",
+                    text: "Framework expertise: Proficiency in popular frontend framework such as React JS",
                 },
                 {
                     id: 3,
-                    text: "I create ux element interactions.",
+                    text: "Cross-browser compatibility: Ensuring that the website or application works seamlessly across different web browsers.",
                 },
                 {
                     id: 4,
-                    text: "I position your company brand.",
+                    text: "Responsive design: Designing and developing websites and applications that adapt to various screen sizes and devices.",
                 },
                 {
                     id: 5,
-                    text: "I position your company brand.",
+                    text: "Web performance optimization: Optimizing web pages for faster load times and improved user experience.",
+                },
+                {
+                    id: 6,
+                    text: "Code optimization: Writing clean, efficient, and maintainable code.",
+                },
+                {
+                    id: 7,
+                    text: "Debugging and troubleshooting: Finding and fixing bugs and issues in the frontend code.",
+                },
+                {
+                    id: 8,
+                    text: "Frontend testing: Creating and executing unit and integration tests to ensure the frontend code works as intended.",
+                },
+                {
+                    id: 9,
+                    text: "Version control: Proficiency in using version control tools such as Git for collaborative development.",
+                },
+                {
+                    id: 10,
+                    text: "Accessibility: Ensuring that the frontend code meets accessibility standards and can be used by users with disabilities.",
                 },
             ]
         },
         {
             id: 3,
-            title: `Visual \n Designer`,
-            title2: "Visual Designer",
-            description: "Service with more than 3 years of experience. Providing quality work to clients and companies.",
+            title: `Product \n Design`,
+            title2: "Product Designer",
+            description: "Service with more than 2 years of experience.",
             classType: "uil-edit",
             modalServiceItems: [
                 {
                     id: 1,
-                    text: "I develop the user interface.",
+                    text: "User research: Understanding the user's needs, pain points, and preferences through research methods such as surveys, interviews, and user testing.",
                 },
                 {
                     id: 2,
-                    text: "Web page development.",
+                    text: "Ideation and prototyping: Generating and testing new ideas and creating prototypes to validate design concepts.",
                 },
                 {
                     id: 3,
-                    text: "I create ux element interactions.",
+                    text: "Product strategy and planning: Developing a roadmap for the product based on user needs, market trends, and business goals.",
                 },
                 {
                     id: 4,
-                    text: "I position your company brand.",
+                    text: "User experience design: Designing the user interface and interaction of the product to ensure a seamless and intuitive user experience.",
                 },
                 {
                     id: 5,
-                    text: "I position your company brand.",
+                    text: "Product branding and identity: Creating a visual identity and brand guidelines for the product to establish a consistent and recognizable brand image.",
                 },
             ]
         },
@@ -282,6 +310,10 @@ export const store = {
                             id: 3,
                             title: "Redux"
                         },
+                        {
+                            id: 3,
+                            title: "Redux toolkit"
+                        },
                     ],
                 },
                 {
@@ -289,15 +321,15 @@ export const store = {
                     data: [
                         {
                             id: 1,
-                            title: "Responsive Design"
+                            title: "Responsive Web Design"
                         },
                         {
                             id: 2,
-                            title: "UI/UX"
+                            title: "UI/UX Design"
                         },
                         {
                             id: 3,
-                            title: "Figma"
+                            title: "Product Design"
                         },
                     ],
                 },
@@ -332,11 +364,11 @@ export const store = {
                         },
                         {
                             id: 2,
-                            title: "Time management"
+                            title: "Tailwind CSS"
                         },
                         {
                             id: 3,
-                            title: "Digital marketing"
+                            title: "Git"
                         },
                     ],
                 },
@@ -347,32 +379,32 @@ export const store = {
         {
             id: 1,
             image: Work1,
-            title: "Web design",
+            title: "Interior design studio",
             category: "web",
         },
         {
             id: 2,
             image: Work2,
-            title: "App movil",
-            category: "app",
+            title: "CV web site example",
+            category: "web",
         },
         {
             id: 3,
             image: Work3,
-            title: "Brand design",
-            category: "design",
+            title: "Aqua therapy services",
+            category: "web",
         },
         {
             id: 4,
             image: Work4,
-            title: "App movil",
-            category: "app",
+            title: "Guest house",
+            category: "web",
         },
         {
             id: 5,
             image: Work5,
-            title: "Web design",
-            category: "web",
+            title: "Tools store's web site design using Figma",
+            category: "design",
         },
     ],
     projectsNav: [
@@ -386,10 +418,6 @@ export const store = {
         },
         {
             id: 3,
-            name: "app"
-        },
-        {
-            id: 4,
             name: "design"
         },
     ],
