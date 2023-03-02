@@ -1,0 +1,13 @@
+# Site settings
+title: Dvaid Gyulinyan CV
+description: Resume
+url: https://davidgyulinyan.com
+
+# Author information
+author:
+  name: Dvaid Gyulinyan
+  email: gyulinyand@gmail.com
+
+# Build settings
+markdown: none
+theme: my-theme
