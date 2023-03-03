@@ -3,7 +3,7 @@ import "./Qualification.css"
 
 const QualificationBlock = ({title, subtitle, text}) => {
     return (
-        <div>
+        <div style={{paddingBottom: "20px"}}>
             <h3 className="qualification__title">{title}</h3>
             <span className="qualification__subtitle">{subtitle}</span>
             <div className="qualification__calendar">

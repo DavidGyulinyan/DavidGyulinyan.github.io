@@ -429,17 +429,18 @@ export const store = {
             sections: [
                 {
                     id: 1,
-                    title: "Yerevan Haybusak University",
-                    subtitle: "Bachelor's degree",
-                    text: "2012 - 2017",
+                    title: "Habusak College",
+                    subtitle: "Tech Engineering",
+                    text: "2009 - 2012",
+                    subject: "education",
                 },
                 {
                     id: 2,
-                    title: "Marketing Manager",
-                    subtitle: "Eargir IT Center",
-                    text: "2021/06 - 2021/12",
+                    title: "Yerevan Haybusak University",
+                    subtitle: "Bachelor's degree",
+                    text: "2012 - 2017",
+                    subject: "education",
                 },
-
             ]
         },
         {
@@ -449,15 +450,17 @@ export const store = {
             sections: [
                 {
                     id: 1,
-                    title: "Habusak College",
-                    subtitle: "Tech Engineering",
-                    text: "2009 - 2012",
+                    title: "Marketing Manager",
+                    subtitle: "Eargir IT Center",
+                    text: "2021/06 - 2021/12",
+                    subject: "work",
                 },
                 {
                     id: 2,
                     title: "Web Developer",
                     subtitle: "Phenix Corporation",
                     text: "2022/01 - Present",
+                    subject: "work",
                 },
 
             ]

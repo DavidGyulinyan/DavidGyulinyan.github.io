@@ -11,7 +11,7 @@ const QualificationData = ({sections}) => {
                     return (
                         <React.Fragment key={section.id}>
                             {
-                                section.id % 2 !== 0
+                                section.subject === "education"
                                     ? <>
                                         <QualificationBlock
                                             title={section.title}
