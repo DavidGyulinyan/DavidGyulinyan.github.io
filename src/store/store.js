@@ -430,14 +430,14 @@ export const store = {
                 {
                     id: 1,
                     title: "Habusak College",
-                    subtitle: "Tech Engineering",
+                    subtitle: "Dental Technician",
                     text: "2009 - 2012",
                     subject: "education",
                 },
                 {
                     id: 2,
                     title: "Yerevan Haybusak University",
-                    subtitle: "Bachelor's degree",
+                    subtitle: "Dentistry",
                     text: "2012 - 2017",
                     subject: "education",
                 },
