@@ -28,7 +28,7 @@ const WorkItems = ({item}) => {
                 onClick={handleImageClick}
             />
             <h3 className="work__title">{item.title}</h3>
-            <a href="/" className="work__button">
+            <a href={item.link} className="work__button">
                 Demo
                 <i className="bx bx-right-arrow-alt work__button-icon"/>
             </a>

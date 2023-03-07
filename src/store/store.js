@@ -108,7 +108,7 @@ export const store = {
             alt: "image 2",
             title: "Marry Clinton",
             description:
-                "Always took the time to explain his approach and made sure we were comfortable with the direction he was taking. His attention to detail and ability to write clean, efficient code were evident in the final product. I would highly recommend David to anyone looking for a skilled and reliable React developer."
+                "Always took the time to explain his approach and made sure we were comfortable with the direction he was taking. His attention to details and ability to write clean, efficient code were evident in the final product. I would highly recommend David to anyone looking for a skilled and reliable React developer."
         },
         {
             id: 3,

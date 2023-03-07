@@ -26,7 +26,6 @@ const Contact = () => {
         <Section
             id="contact"
             title="Get in touch"
-            subtitle="Contact Me"
         >
             <div className="contact__container container grid">
                 <div className="contact__content">
@@ -85,7 +84,7 @@ const Contact = () => {
                         </div>
 
                         <button className="button button--flex">
-                            Sand Message
+                            Send Message
                             <SendSvg/>
                         </button>
                     </form>
