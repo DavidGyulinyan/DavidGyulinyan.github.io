@@ -386,14 +386,14 @@ export const store = {
         {
             id: 2,
             image: Work2,
-            title: "Sunset Lodge hotel's Website",
+            title: "Sunset Lodge hotel",
             category: "web",
             link: "https://github.com/DavidGyulinyan/sunset_lodge"
         },
         {
             id: 3,
             image: Work3,
-            title: "Aqua therapy services",
+            title: "RitmStyle Aquatherapy",
             category: "web",
             link: "https://github.com/DavidGyulinyan/RitmStyle"
         },
@@ -407,7 +407,7 @@ export const store = {
         {
             id: 5,
             image: Work5,
-            title: "Tools store's web site design using Figma",
+            title: "Atom electrotools store's website design 'Figma'",
             category: "design",
             link: "https://www.figma.com/file/hvk9iIQYwSuEHIq1vKSlN8/Untitled?node-id=0%3A1&t=lXNrUCDM3nSm7C3H-0"
         },
