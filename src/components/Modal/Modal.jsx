@@ -10,11 +10,9 @@ const Modal = ({ product }) => {
     };
 
     useEffect(() => {
-        // Add overflow: hidden to body element when modal is open
         if (toggleState === product.id) {
             document.body.style.overflow = "hidden";
         } else {
-            // Remove overflow: hidden when modal is closed
             document.body.style.overflow = "";
         }
     }, [toggleState, product.id]);
