@@ -38,6 +38,7 @@
     width: 295px;
     border-radius: 1rem;
     margin-bottom: var(--mb-1);
+    cursor: pointer;
 }
 
 .work__title {
