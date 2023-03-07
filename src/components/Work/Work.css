@@ -32,11 +32,11 @@
     padding: 1.25rem;
     border-radius: 1rem;
 
+    margin: auto;
 }
 
 .work__img {
     width: 295px;
-    border-radius: 1rem;
     margin-bottom: var(--mb-1);
     cursor: pointer;
 }

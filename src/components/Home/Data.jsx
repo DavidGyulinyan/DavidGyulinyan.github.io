@@ -11,7 +11,7 @@ const Data = () => {
             </h1>
             <h3 className="home__subtitle">Frontend Developer</h3>
             <p className="home__description">
-                Always looking to learn new skills, take on extra responsibilities, and grow professionally.
+                Always looking to acquire new skills, take on extra responsibilities, and grow professionally.
             </p>
             <a href="#contact" className="button button--flex">
                 Say Hello

@@ -249,14 +249,10 @@ export const store = {
                 },
                 {
                     id: 8,
-                    text: "Frontend testing: Creating and executing unit and integration tests to ensure the frontend code works as intended.",
-                },
-                {
-                    id: 9,
                     text: "Version control: Proficiency in using version control tools such as Git for collaborative development.",
                 },
                 {
-                    id: 10,
+                    id: 9,
                     text: "Accessibility: Ensuring that the frontend code meets accessibility standards and can be used by users with disabilities.",
                 },
             ]
@@ -407,7 +403,7 @@ export const store = {
         {
             id: 5,
             image: Work5,
-            title: "Atom electrotools store's website design 'Figma'",
+            title: "Online shop website design 'Figma'",
             category: "design",
             link: "https://www.figma.com/file/hvk9iIQYwSuEHIq1vKSlN8/Untitled?node-id=0%3A1&t=lXNrUCDM3nSm7C3H-0"
         },
