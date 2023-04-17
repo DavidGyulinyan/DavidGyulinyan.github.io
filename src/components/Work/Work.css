@@ -35,13 +35,20 @@
     margin: auto;
 }
 
+.work__card-content {
+    height: 200px;
+overflow: hidden;
+}
+
 .work__img {
     width: 295px;
+
     margin-bottom: var(--mb-1);
     cursor: pointer;
 }
 
 .work__title {
+    margin-top: 20px;
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-5);

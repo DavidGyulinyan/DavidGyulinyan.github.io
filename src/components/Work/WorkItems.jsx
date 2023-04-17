@@ -21,12 +21,14 @@ const WorkItems = ({item}) => {
 
     return (
         <div className="work__card">
+            <div className="work__card-content">
             <img
                 src={item.image}
                 alt={item.title}
                 className="work__img"
                 onClick={handleImageClick}
             />
+            </div>
             <h3 className="work__title">{item.title}</h3>
             <a href={item.link} className="work__button">
                 Demo
@@ -42,6 +44,7 @@ const WorkItems = ({item}) => {
                 )
             }
 
+
             {
                 isOpen && (
                     <button className="lightbox__close" onClick={handleClose}>
@@ -49,6 +52,7 @@ const WorkItems = ({item}) => {
                     </button>
                 )
             }
+
         </div>
     );
 }
