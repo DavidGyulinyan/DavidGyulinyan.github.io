@@ -403,9 +403,16 @@ export const store = {
         {
             id: 5,
             image: Work5,
-            title: "Online shop website design 'Figma'",
+            title: "Online shop website designed by Figma",
             category: "design",
             link: "https://www.figma.com/file/hvk9iIQYwSuEHIq1vKSlN8/Untitled?node-id=0%3A1&t=lXNrUCDM3nSm7C3H-0"
+        },
+        {
+            id: 6,
+            image: Work6,
+            title: "Meetup website designed by Figma",
+            category: "design",
+            link: "https://www.figma.com/file/ADuoPpmm7MOfqlpmOpamFJ/Untitled?node-id=130%3A5&t=WcGvrQIXtxd5Ybhx-1"
         },
     ],
     projectsNav: [
