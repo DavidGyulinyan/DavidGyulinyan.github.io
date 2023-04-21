@@ -1,8 +1,8 @@
-import React from 'react'
-import "./About.css"
-import AboutImg from "../../assets/cvImg.jpg"
-import CV from "../../assets/Gyulinyan-CV.pdf"
-import Info from './Info'
+import React from 'react';
+import "./About.css";
+import AboutImg1 from "../../assets/cvImg1.jpg";
+import CV from "../../assets/Gyulinyan-CV.pdf";
+import Info from './Info';
 import {ReactComponent as FileSvg} from "../../assets/files.svg";
 import Section from "../Section/Section";
 
@@ -16,7 +16,7 @@ const About = () => {
             <div className="about__container container grid">
                 <img
                     className="about__img"
-                    src={AboutImg}
+                    src={AboutImg1}
                     alt="my img"
                 />
                 <div className="about__data">

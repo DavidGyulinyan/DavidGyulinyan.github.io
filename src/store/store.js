@@ -378,42 +378,48 @@ export const store = {
             image: Work1,
             title: "Interior design studio",
             category: "web",
-            link: "https://github.com/DavidGyulinyan/interior-design-website"
+            link: "https://github.com/DavidGyulinyan/interior-design-website",
+            view:"Github"
         },
         {
             id: 2,
             image: Work2,
             title: "Sunset Lodge hotel",
             category: "web",
-            link: "https://github.com/DavidGyulinyan/sunset_lodge"
+            link: "https://github.com/DavidGyulinyan/sunset_lodge",
+            view:"Github"
         },
         {
             id: 3,
             image: Work3,
             title: "RitmStyle Aquatherapy",
             category: "web",
-            link: "https://github.com/DavidGyulinyan/RitmStyle"
+            link: "https://github.com/DavidGyulinyan/RitmStyle",
+            view:"Github"
         },
         {
             id: 4,
             image: Work4,
             title: "Guest house",
             category: "web",
-            link: "https://github.com/DavidGyulinyan/Norwegian-style-guest-house"
+            link: "https://github.com/DavidGyulinyan/Norwegian-style-guest-house",
+            view:"Github"
         },
         {
             id: 5,
             image: Work5,
             title: "Online shop website designed by Figma",
             category: "design",
-            link: "https://www.figma.com/file/hvk9iIQYwSuEHIq1vKSlN8/Untitled?node-id=0%3A1&t=lXNrUCDM3nSm7C3H-0"
+            link: "https://www.figma.com/file/hvk9iIQYwSuEHIq1vKSlN8/Untitled?node-id=0%3A1&t=lXNrUCDM3nSm7C3H-0",
+            view:"Figma"
         },
         {
             id: 6,
             image: Work6,
             title: "Meetup website designed by Figma",
             category: "design",
-            link: "https://www.figma.com/file/ADuoPpmm7MOfqlpmOpamFJ/Untitled?node-id=130%3A5&t=WcGvrQIXtxd5Ybhx-1"
+            link: "https://www.figma.com/file/ADuoPpmm7MOfqlpmOpamFJ/Untitled?node-id=130%3A5&t=WcGvrQIXtxd5Ybhx-1",
+            view:"Figma"
         },
     ],
     projectsNav: [
