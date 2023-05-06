@@ -318,7 +318,7 @@ export const store = {
                     data: [
                         {
                             id: 1,
-                            title: "Responsive Web Design"
+                            title: "Next JS"
                         },
                         {
                             id: 2,
@@ -366,6 +366,10 @@ export const store = {
                         {
                             id: 3,
                             title: "Git"
+                        },
+                        {
+                            id: 4,
+                            title: "Responsive Web Design"
                         },
                     ],
                 },
