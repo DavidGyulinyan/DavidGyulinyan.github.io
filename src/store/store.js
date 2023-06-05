@@ -380,7 +380,7 @@ export const store = {
         {
             id: 1,
             image: Work1,
-            title: "Interior design studio website",
+            title: "Interior design studio",
             category: "web",
             link: "https://github.com/DavidGyulinyan/interior-design-website",
             view:"Github"
@@ -396,7 +396,7 @@ export const store = {
         {
             id: 3,
             image: Work3,
-            title: "RitmStyle Aqua therapy services",
+            title: "RitmStyle",
             category: "web",
             link: "https://github.com/DavidGyulinyan/RitmStyle",
             view:"Github"
@@ -412,7 +412,7 @@ export const store = {
         {
             id: 5,
             image: Work5,
-            title: "Atom elecrtrotools online shop website designed by Figma",
+            title: "Atom elecrtrotools",
             category: "design",
             link: "https://www.figma.com/file/hvk9iIQYwSuEHIq1vKSlN8/Untitled?node-id=0%3A1&t=lXNrUCDM3nSm7C3H-0",
             view:"Figma"
@@ -420,7 +420,7 @@ export const store = {
         {
             id: 6,
             image: Work6,
-            title: "Inknoos meetup website designed by Figma",
+            title: "Inknoos meetup",
             category: "design",
             link: "https://www.figma.com/file/ADuoPpmm7MOfqlpmOpamFJ/Untitled?node-id=130%3A5&t=WcGvrQIXtxd5Ybhx-1",
             view:"Figma"
