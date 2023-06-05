@@ -180,7 +180,7 @@ export const store = {
             id: 1,
             title: `Ui/Ux \n Design`,
             title2: "Ui/Ux Design",
-            description: "Service with more than 2 years of experience.",
+            description: "With more than 2 years of experience.",
             classType: "uil-web-grid",
             modalServiceItems: [
                 {
@@ -217,7 +217,7 @@ export const store = {
             id: 2,
             title: `Frontend \n Development`,
             title2: "Frontend Development",
-            description: "Service with more than 2 years of experience.",
+            description: "More than 2 years of experience.",
             classType: "uil-arrow",
             modalServiceItems: [
                 {
@@ -262,7 +262,7 @@ export const store = {
             id: 3,
             title: `Product \n Design`,
             title2: "Product Designer",
-            description: "Service with more than 2 years of experience.",
+            description: "More than 2 years of experience.",
             classType: "uil-edit",
             modalServiceItems: [
                 {
@@ -380,7 +380,7 @@ export const store = {
         {
             id: 1,
             image: Work1,
-            title: "Interior design studio",
+            title: "Interior design studio website",
             category: "web",
             link: "https://github.com/DavidGyulinyan/interior-design-website",
             view:"Github"
@@ -396,7 +396,7 @@ export const store = {
         {
             id: 3,
             image: Work3,
-            title: "RitmStyle Aquatherapy",
+            title: "RitmStyle Aqua therapy services",
             category: "web",
             link: "https://github.com/DavidGyulinyan/RitmStyle",
             view:"Github"
@@ -412,7 +412,7 @@ export const store = {
         {
             id: 5,
             image: Work5,
-            title: "Online shop website designed by Figma",
+            title: "Atom elecrtrotools online shop website designed by Figma",
             category: "design",
             link: "https://www.figma.com/file/hvk9iIQYwSuEHIq1vKSlN8/Untitled?node-id=0%3A1&t=lXNrUCDM3nSm7C3H-0",
             view:"Figma"
@@ -420,7 +420,7 @@ export const store = {
         {
             id: 6,
             image: Work6,
-            title: "Meetup website designed by Figma",
+            title: "Inknoos meetup website designed by Figma",
             category: "design",
             link: "https://www.figma.com/file/ADuoPpmm7MOfqlpmOpamFJ/Untitled?node-id=130%3A5&t=WcGvrQIXtxd5Ybhx-1",
             view:"Figma"
