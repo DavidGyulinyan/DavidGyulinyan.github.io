@@ -142,7 +142,7 @@ export const store = {
             id: 2,
             className: "bxl-telegram",
             buttonTxt: "Telegram",
-            data: "+374 41855800",
+            data: "+374 77770335",
             link: "https://web.telegram.org/k/#@DavidGyulinyan",
         },
     ],
