@@ -22,4 +22,11 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-.idea
+# Ignore .idea directory created by JetBrains IDEs
+.idea/
+
+# Ignore .vscode directory created by Visual Studio Code
+.vscode/
+
+# Ignore .git directory
+.git/
