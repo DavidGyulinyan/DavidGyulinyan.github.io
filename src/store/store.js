@@ -10,6 +10,7 @@ import Work3 from "../assets/work3.png";
 import Work4 from "../assets/work4.png";
 import Work5 from "../assets/work5.png";
 import Work6 from "../assets/work6.png";
+import Work7 from "../assets/work7.png"
 
 
 export const store = {
@@ -383,7 +384,7 @@ export const store = {
             title: "Interior design studio",
             category: "web",
             link: "https://github.com/DavidGyulinyan/interior-design-website",
-            view:"Github"
+            view: "Github"
         },
         {
             id: 2,
@@ -391,7 +392,7 @@ export const store = {
             title: "Sunset Lodge hotel",
             category: "web",
             link: "https://github.com/DavidGyulinyan/sunset_lodge",
-            view:"Github"
+            view: "Github"
         },
         {
             id: 3,
@@ -399,7 +400,7 @@ export const store = {
             title: "RitmStyle",
             category: "web",
             link: "https://github.com/DavidGyulinyan/RitmStyle",
-            view:"Github"
+            view: "Github"
         },
         {
             id: 4,
@@ -407,7 +408,7 @@ export const store = {
             title: "Guest house",
             category: "web",
             link: "https://github.com/DavidGyulinyan/Norwegian-style-guest-house",
-            view:"Github"
+            view: "Github"
         },
         {
             id: 5,
@@ -415,7 +416,7 @@ export const store = {
             title: "Atom elecrtrotools",
             category: "design",
             link: "https://www.figma.com/file/hvk9iIQYwSuEHIq1vKSlN8/Untitled?node-id=0%3A1&t=lXNrUCDM3nSm7C3H-0",
-            view:"Figma"
+            view: "Figma"
         },
         {
             id: 6,
@@ -423,8 +424,16 @@ export const store = {
             title: "Inknoos meetup",
             category: "design",
             link: "https://www.figma.com/file/ADuoPpmm7MOfqlpmOpamFJ/Untitled?node-id=130%3A5&t=WcGvrQIXtxd5Ybhx-1",
-            view:"Figma"
+            view: "Figma"
         },
+        {
+            id: 7,
+            image: Work7,
+            title: "Test online store",
+            category: 'web',
+            link: "https://github.com/DavidGyulinyan/online_store",
+            view: "Github"
+        }
     ],
     projectsNav: [
         {
@@ -448,7 +457,7 @@ export const store = {
             sections: [
                 {
                     id: 1,
-                    title: "Habusak College",
+                    title: "Haybusak College",
                     subtitle: "Dental Technician",
                     text: "2009 - 2012",
                     subject: "education",
@@ -470,7 +479,7 @@ export const store = {
                 {
                     id: 1,
                     title: "Marketing Manager",
-                    subtitle: "Eargir IT Center",
+                    subtitle: "EITC",
                     text: "2021/06 - 2021/12",
                     subject: "work",
                 },
