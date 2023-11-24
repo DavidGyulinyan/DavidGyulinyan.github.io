@@ -27,7 +27,7 @@ export const store = {
         },
         {
             id: 3,
-            href: "https://github.com/DavidGyulinyan?tab=repositories",
+            href: "https://github.com/DavidGyulinyan",
             Icon: <i className="uil uil-github-alt"/>,
         },
     ],
