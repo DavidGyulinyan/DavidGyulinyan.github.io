@@ -36,7 +36,6 @@ const Modal = ({ product }) => {
                 <div className="services__modal-content">
                     <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close" />
                     <h3 className="services__modal-title">{product.title2}</h3>
-                    <p className="services__modal-description">{product.description}</p>
                     <ModalServices services={product.modalServiceItems} />
                 </div>
             </div>

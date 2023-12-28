@@ -22,7 +22,7 @@ const About = () => {
                 <div className="about__data">
                     <Info/>
                     <p className="about__description">
-                        I'm a front-end developer with 2 years of experience. I am passionate about creating beautiful and functional user interfaces that enhance the user experience.
+                        I'm a front-end developer. Passionate about creating beautiful and functional user interfaces that enhance the user experience.
                         <br/><br/>
                         As a front-end developer, I have worked with a variety of technologies such as HTML, CSS, JavaScript, and React. I have experience in creating responsive and accessible websites and web applications that are optimized for performance.
                         <br/><br/>

@@ -182,7 +182,6 @@ export const store = {
             id: 1,
             title: `Ui/Ux \n Design`,
             title2: "Ui/Ux Design",
-            description: "With more than 2 years of experience.",
             classType: "uil-web-grid",
             modalServiceItems: [
                 {
@@ -219,7 +218,6 @@ export const store = {
             id: 2,
             title: `Frontend \n Development`,
             title2: "Frontend Development",
-            description: "More than 2 years of experience.",
             classType: "uil-arrow",
             modalServiceItems: [
                 {
@@ -228,7 +226,7 @@ export const store = {
                 },
                 {
                     id: 2,
-                    text: "Framework expertise: Proficiency in popular frontend framework such as React JS",
+                    text: "Framework expertise: Proficiency in popular frontend framework such as React JS and Vue JS",
                 },
                 {
                     id: 3,
@@ -264,7 +262,6 @@ export const store = {
             id: 3,
             title: `Product \n Design`,
             title2: "Product Designer",
-            description: "More than 2 years of experience.",
             classType: "uil-edit",
             modalServiceItems: [
                 {
