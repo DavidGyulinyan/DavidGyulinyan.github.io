@@ -25,7 +25,7 @@ const Header = () => {
     return (
         <header className={`header ${headerClass}`}>
             <nav className="nav container">
-                <a href="/" className="nav__logo">David</a>
+                <a href="/" className="nav__logo">Davit</a>
 
                 <div className={showMenu ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list grid">
