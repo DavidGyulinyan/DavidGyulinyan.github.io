@@ -514,6 +514,20 @@ export const store = {
                     text: "2012 - 2017",
                     subject: "education",
                 },
+                {
+                    id: 3,
+                    title: "EITC",
+                    subtitle: "Computer architecture",
+                    text: "2021.05 - 2021.06",
+                    subject: "education",
+                },
+                {
+                    id: 3,
+                    title: "Smart Code",
+                    subtitle: "React JS course",
+                    text: "2022.10 - 2022.12",
+                    subject: "education",
+                },
             ]
         },
     ],
