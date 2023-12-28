@@ -4,7 +4,6 @@ import Section from "../Section/Section";
 import {store} from "../../store/store";
 import QualificationData from "./QualificationData";
 
-
 const {qualification} = store
 
 const Qualification = () => {
@@ -19,7 +18,6 @@ const Qualification = () => {
         <Section
             id="qualification"
             title="Qualification"
-            subtitle="My personal journey"
         >
             <div className="qualification__container container">
                 <div className="qualification__tabs">
@@ -28,7 +26,7 @@ const Qualification = () => {
                             return (
                                 <div
                                     key={item.id}
-                                    className={toggleState === item.id ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"}
+                                    className={toggleState === item.id ? "qualification__button button--flex qualification__active" : "qualification__button button--flex"}
                                     onClick={() => toggleTab(item.id)}
                                 >
                                     <i className={`uil ${item.icon_class} qualification__icon`}/>

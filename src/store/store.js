@@ -10,7 +10,8 @@ import Work3 from "../assets/work3.png";
 import Work4 from "../assets/work4.png";
 import Work5 from "../assets/work5.png";
 import Work6 from "../assets/work6.png";
-import Work7 from "../assets/work7.png"
+import Work7 from "../assets/work7.png";
+import Work8 from "../assets/work8.png";
 
 
 export const store = {
@@ -142,7 +143,7 @@ export const store = {
             id: 2,
             className: "bxl-telegram",
             buttonTxt: "Telegram",
-            data: "+374 77770335",
+            data: "+374 41855800",
             link: "https://web.telegram.org/k/#@DavidGyulinyan",
         },
     ],
@@ -318,8 +319,16 @@ export const store = {
                     id: 2,
                     data: [
                         {
-                            id: 1,
+                            id: 5,
                             title: "Next JS"
+                        },
+                        {
+                            id: 1,
+                            title: "Vue JS"
+                        },
+                        {
+                            id: 4,
+                            title: "Vuex"
                         },
                         {
                             id: 2,
@@ -351,15 +360,15 @@ export const store = {
                             id: 3,
                             title: "SASS"
                         },
+                        {
+                            id: 4,
+                            title: "SCSS"
+                        },
                     ],
                 },
                 {
                     id: 4,
                     data: [
-                        {
-                            id: 1,
-                            title: "SCSS"
-                        },
                         {
                             id: 2,
                             title: "Tailwind CSS"
@@ -379,6 +388,22 @@ export const store = {
     ],
     projectsData: [
         {
+            id: 7,
+            image: Work7,
+            title: "Test online store",
+            category: 'web',
+            link: "https://github.com/DavidGyulinyan/online_store",
+            view: "Github"
+        },
+        {
+            id: 8,
+            image: Work8,
+            title: "Focus Design Studio",
+            category: 'web',
+            link: "https://github.com/DavidGyulinyan/focus-design-studio",
+            view: "Github"
+        },
+        {
             id: 1,
             image: Work1,
             title: "Interior design studio",
@@ -397,7 +422,7 @@ export const store = {
         {
             id: 3,
             image: Work3,
-            title: "RitmStyle",
+            title: "RithmStyle",
             category: "web",
             link: "https://github.com/DavidGyulinyan/RitmStyle",
             view: "Github"
@@ -413,7 +438,7 @@ export const store = {
         {
             id: 5,
             image: Work5,
-            title: "Atom elecrtrotools",
+            title: "Atom elecrtrotools 'online sore'",
             category: "design",
             link: "https://www.figma.com/file/hvk9iIQYwSuEHIq1vKSlN8/Untitled?node-id=0%3A1&t=lXNrUCDM3nSm7C3H-0",
             view: "Figma"
@@ -421,19 +446,12 @@ export const store = {
         {
             id: 6,
             image: Work6,
-            title: "Inknoos meetup",
+            title: "Inknoos meetup web page",
             category: "design",
             link: "https://www.figma.com/file/ADuoPpmm7MOfqlpmOpamFJ/Untitled?node-id=130%3A5&t=WcGvrQIXtxd5Ybhx-1",
             view: "Figma"
         },
-        {
-            id: 7,
-            image: Work7,
-            title: "Test online store",
-            category: 'web',
-            link: "https://github.com/DavidGyulinyan/online_store",
-            view: "Github"
-        }
+
     ],
     projectsNav: [
         {
@@ -452,6 +470,36 @@ export const store = {
     qualification: [
         {
             id: 1,
+            title: "Experience",
+            icon_class: "uil-briefcase-alt",
+            sections: [
+                {
+                    id: 1,
+                    title: "Sales Manager",
+                    subtitle: "EITC",
+                    text: "2021/06 - 2021/12",
+                    subject: "work",
+                },
+                {
+                    id: 2,
+                    title: "Web Developer",
+                    subtitle: "Phenix Corporation",
+                    text: "2023/05 - Present",
+                    subject: "work",
+                },
+                {
+                    id: 3,
+                    title: "Code tutor",
+                    subtitle: "Phenix Corporation",
+                    text: "2022/01 - Present",
+                    subject: "work",
+                },
+
+            ]
+        },
+
+        {
+            id: 2,
             title: "Education",
             icon_class: "uil-graduation-cap",
             sections: [
@@ -469,28 +517,6 @@ export const store = {
                     text: "2012 - 2017",
                     subject: "education",
                 },
-            ]
-        },
-        {
-            id: 2,
-            title: "Experience",
-            icon_class: "uil-briefcase-alt",
-            sections: [
-                {
-                    id: 1,
-                    title: "Marketing Manager",
-                    subtitle: "EITC",
-                    text: "2021/06 - 2021/12",
-                    subject: "work",
-                },
-                {
-                    id: 2,
-                    title: "Web Developer",
-                    subtitle: "Phenix Corporation",
-                    text: "2022/01 - Present",
-                    subject: "work",
-                },
-
             ]
         },
     ],

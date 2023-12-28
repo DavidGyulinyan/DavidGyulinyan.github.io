@@ -12,23 +12,25 @@ const QualificationData = ({sections}) => {
                         <React.Fragment key={section.id}>
                             {
                                 section.subject === "education"
-                                    ? <>
+                                    ?
+                                    <>
+                                        <div></div>
+                                        <RounderLine/>
                                         <QualificationBlock
                                             title={section.title}
                                             subtitle={section.subtitle}
                                             text={section.text}
                                         />
-                                        <RounderLine/>
-                                        <div></div>
                                     </>
-                                    : <>
-                                        <div></div>
-                                        <RounderLine/>
+                                    :
+                                    <>
                                         <QualificationBlock
                                             title={section.title}
                                             subtitle={section.subtitle}
                                             text={section.text}
                                         />
+                                        <RounderLine/>
+                                        <div></div>
                                     </>
                             }
 
