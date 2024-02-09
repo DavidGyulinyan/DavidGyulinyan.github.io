@@ -12,7 +12,7 @@ const Data = () => {
                 Always looking to acquire new skills, take on extra responsibilities, and grow professionally.
             </p>
             <a href="#contact" className="button button--flex">
-                Say Hello
+                Contact me
                 <SendSvg/>
             </a>
         </div>

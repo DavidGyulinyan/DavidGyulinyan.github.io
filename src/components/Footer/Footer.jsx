@@ -39,7 +39,7 @@ const Footer = () => {
                 </div>
 
                 <span className="footer__copy">
-                    &#169; Davit Gyulinyan. All rights reserved
+                    &#169; Davit Gyulinyan
                 </span>
             </div>
         </footer>
