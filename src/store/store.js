@@ -522,7 +522,7 @@ export const store = {
                     subject: "education",
                 },
                 {
-                    id: 3,
+                    id: 4,
                     title: "Smart Code",
                     subtitle: "React JS course",
                     text: "2022.10 - 2022.12",
