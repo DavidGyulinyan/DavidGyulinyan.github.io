@@ -165,6 +165,11 @@
         grid-template-columns: .8fr 3fr;
         padding-top: 3.5rem;
     }
+    
+    .home__hand {
+        width: 22px;
+        height: 22px;
+    }
 
     .home__description {
         display: grid;
@@ -174,7 +179,7 @@
         order: initial;
         justify-self: initial;
         width: 200px;
-        height: 200px;
+        height: 250px;
     }
 
     .home__data {
@@ -184,22 +189,4 @@
     .home__scroll {
         display: none;
     }
-
-    /* for small devices */
-    @media screen and (max-width: 350px) {
-    }
-    .home__img {
-        width: 180px;
-        height: 180px;
-    }
-
-    .home__hand {
-        width: 22px;
-        height: 22px;
-    }
-
-    .home__description {
-        min-width: initial;
-    }
-
 }

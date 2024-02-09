@@ -362,7 +362,7 @@ export const store = {
             title: "Test online store",
             category: 'web',
             link: "https://github.com/DavidGyulinyan/online_store",
-            view: "Github"
+            view: "GitHub"
         },
         {
             id: Math.random().toString(36).substring(2),
@@ -370,7 +370,7 @@ export const store = {
             title: "Focus Design Studio",
             category: 'web',
             link: "https://github.com/DavidGyulinyan/focus-design-studio",
-            view: "Github"
+            view: "GitHub"
         },
         {
             id: Math.random().toString(36).substring(2),
@@ -378,7 +378,7 @@ export const store = {
             title: "Interior design studio",
             category: "web",
             link: "https://github.com/DavidGyulinyan/interior-design-website",
-            view: "Github"
+            view: "GitHub"
         },
         {
             id: Math.random().toString(36).substring(2),
@@ -386,31 +386,7 @@ export const store = {
             title: "Sunset Lodge hotel",
             category: "web",
             link: "https://github.com/DavidGyulinyan/sunset_lodge",
-            view: "Github"
-        },
-        {
-            id: Math.random().toString(36).substring(2),
-            image: Work3,
-            title: "RithmStyle",
-            category: "web",
-            link: "https://github.com/DavidGyulinyan/RitmStyle",
-            view: "Github"
-        },
-        {
-            id: Math.random().toString(36).substring(2),
-            image: Work4,
-            title: "Guest house",
-            category: "web",
-            link: "https://github.com/DavidGyulinyan/Norwegian-style-guest-house",
-            view: "Github"
-        },
-        {
-            id: Math.random().toString(36).substring(2),
-            image: Work5,
-            title: "Atom elecrtrotools 'online sore'",
-            category: "design",
-            link: "https://www.figma.com/file/hvk9iIQYwSuEHIq1vKSlN8/Untitled?node-id=0%3A1&t=lXNrUCDM3nSm7C3H-0",
-            view: "Figma"
+            view: "GitHub"
         },
         {
             id: Math.random().toString(36).substring(2),
@@ -420,7 +396,30 @@ export const store = {
             link: "https://www.figma.com/file/ADuoPpmm7MOfqlpmOpamFJ/Untitled?node-id=130%3A5&t=WcGvrQIXtxd5Ybhx-1",
             view: "Figma"
         },
-
+        {
+            id: Math.random().toString(36).substring(2),
+            image: Work3,
+            title: "RithmStyle",
+            category: "web",
+            link: "https://github.com/DavidGyulinyan/RitmStyle",
+            view: "GitHub"
+        },
+        {
+            id: Math.random().toString(36).substring(2),
+            image: Work4,
+            title: "Guest house",
+            category: "web",
+            link: "https://github.com/DavidGyulinyan/Norwegian-style-guest-house",
+            view: "GitHub"
+        },
+        {
+            id: Math.random().toString(36).substring(2),
+            image: Work5,
+            title: "Atom elecrtrotools 'online sore'",
+            category: "design",
+            link: "https://www.figma.com/file/hvk9iIQYwSuEHIq1vKSlN8/Untitled?node-id=0%3A1&t=lXNrUCDM3nSm7C3H-0",
+            view: "Figma"
+        }
     ],
     projectsNav: [
         {
