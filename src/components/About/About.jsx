@@ -1,6 +1,6 @@
 import React from 'react';
 import "./About.css";
-import AboutImg1 from "../../assets/cvImg1.jpg";
+import AboutImg1 from "../../assets/cvImg1.jfif";
 import CV from "../../assets/Davit-Gyulinyan-resume.pdf";
 import Info from './Info';
 import {ReactComponent as FileSvg} from "../../assets/files.svg";
