@@ -19,79 +19,79 @@ export const store = {
         {
             id: Math.random().toString(36).substring(2),
             href: "https://www.facebook.com/profile.php?id=100078521269142",
-            Icon: <i className="uil uil-facebook-f"/>,
+            Icon: <i className="uil uil-facebook-f" />,
         },
         {
             id: Math.random().toString(36).substring(2),
             href: "https://www.linkedin.com/in/david-gyulinyan-9834ab215/",
-            Icon: <i className="uil uil-linkedin-alt"/>,
+            Icon: <i className="uil uil-linkedin-alt" />,
         },
         {
             id: Math.random().toString(36).substring(2),
             href: "https://github.com/DavidGyulinyan",
-            Icon: <i className="uil uil-github-alt"/>,
+            Icon: <i className="uil uil-github-alt" />,
         },
     ],
     infos: [
         {
             id: Math.random().toString(36).substring(2),
-            Icon: <i className="uil uil-award-alt about__icon"/>,
+            Icon: <i className="uil uil-award-alt about__icon" />,
             title: "Experience",
             sub_title: "2 Years Working",
         },
         {
             id: Math.random().toString(36).substring(2),
-            Icon: <i className="uil uil-briefcase-alt about__icon"/>,
+            Icon: <i className="uil uil-briefcase-alt about__icon" />,
             title: "Completed",
             sub_title: "13 + Projects",
         },
         {
             id: Math.random().toString(36).substring(2),
-            Icon: <i className="uil uil-envelope-question about__icon"/>,
+            Icon: <i className="uil uil-envelope-question about__icon" />,
             title: "Support",
-            sub_title: "Online 24/7",
+            sub_title: "Online 12/5",
         },
     ],
     menus: [
         {
             id: Math.random().toString(36).substring(2),
             page: "#home",
-            Icon: <i className="uil uil-estate nav__icon"/>,
+            Icon: <i className="uil uil-estate nav__icon" />,
             title: "Home",
             activeNav: "#home"
         },
         {
             id: Math.random().toString(36).substring(2),
             page: "#about",
-            Icon: <i className="uil uil-user nav__icon"/>,
+            Icon: <i className="uil uil-user nav__icon" />,
             title: "About",
             activeNav: "#about"
         },
         {
             id: Math.random().toString(36).substring(2),
             page: "#skills",
-            Icon: <i className="uil uil-file-alt nav__icon"/>,
+            Icon: <i className="uil uil-file-alt nav__icon" />,
             title: "Skills",
             activeNav: "#skills"
         },
         {
             id: Math.random().toString(36).substring(2),
             page: "#services",
-            Icon: <i className="uil uil-briefcase-alt nav__icon"/>,
+            Icon: <i className="uil uil-briefcase-alt nav__icon" />,
             title: "Services",
             activeNav: "#services"
         },
         {
             id: Math.random().toString(36).substring(2),
             page: "#portfolio",
-            Icon: <i className="uil uil-scenery nav__icon"/>,
+            Icon: <i className="uil uil-scenery nav__icon" />,
             title: "Portfolio",
             activeNav: "#portfolio"
         },
         {
             id: Math.random().toString(36).substring(2),
             page: "#contact",
-            Icon: <i className="uil uil-message nav__icon"/>,
+            Icon: <i className="uil uil-message nav__icon" />,
             title: "Contact",
             activeNav: "#contact"
         },
@@ -305,28 +305,12 @@ export const store = {
                         {
                             id: Math.random().toString(36).substring(2),
                             title: "Redux"
-                        },
-                        {
-                            id: Math.random().toString(36).substring(2),
-                            title: "Redux toolkit"
-                        },
+                        }
                     ],
                 },
                 {
                     id: Math.random().toString(36).substring(2),
                     data: [
-                        {
-                            id: Math.random().toString(36).substring(2),
-                            title: "Next JS"
-                        },
-                        {
-                            id: Math.random().toString(36).substring(2),
-                            title: "Vue JS"
-                        },
-                        {
-                            id: Math.random().toString(36).substring(2),
-                            title: "Vuex"
-                        },
                         {
                             id: Math.random().toString(36).substring(2),
                             title: "UI/UX Design"
@@ -347,20 +331,12 @@ export const store = {
                     data: [
                         {
                             id: Math.random().toString(36).substring(2),
-                            title: "HTML5"
+                            title: "HTML"
                         },
                         {
                             id: Math.random().toString(36).substring(2),
-                            title: "CSS3"
-                        },
-                        {
-                            id: Math.random().toString(36).substring(2),
-                            title: "SASS"
-                        },
-                        {
-                            id: Math.random().toString(36).substring(2),
-                            title: "SCSS"
-                        },
+                            title: "CSS"
+                        }
                     ],
                 },
                 {
@@ -373,11 +349,7 @@ export const store = {
                         {
                             id: Math.random().toString(36).substring(2),
                             title: "Git"
-                        },
-                        {
-                            id: Math.random().toString(36).substring(2),
-                            title: "Responsive Web Design"
-                        },
+                        }
                     ],
                 },
             ]
@@ -466,7 +438,7 @@ export const store = {
     ],
     qualification: [
         {
-            id: Math.random().toString(36).substring(2),
+            id: 1,
             title: "Experience",
             icon_class: "uil-briefcase-alt",
             sections: [
@@ -489,31 +461,10 @@ export const store = {
         },
 
         {
-            id: Math.random().toString(36).substring(2),
+            id: 2,
             title: "Education",
             icon_class: "uil-graduation-cap",
             sections: [
-                {
-                    id: Math.random().toString(36).substring(2),
-                    title: "Haybusak College",
-                    subtitle: "Dental Technician",
-                    text: "2009 - 2012",
-                    subject: "education",
-                },
-                {
-                    id: Math.random().toString(36).substring(2),
-                    title: "Yerevan Haybusak University",
-                    subtitle: "Dentistry",
-                    text: "2012 - 2017",
-                    subject: "education",
-                },
-                {
-                    id: Math.random().toString(36).substring(2),
-                    title: "EITC",
-                    subtitle: "Computer architecture",
-                    text: "2021.05 - 2021.06",
-                    subject: "education",
-                },
                 {
                     id: Math.random().toString(36).substring(2),
                     title: "Smart Code",
@@ -521,6 +472,20 @@ export const store = {
                     text: "2022.10 - 2022.12",
                     subject: "education",
                 },
+                {
+                    id: Math.random().toString(36).substring(2),
+                    title: "Yerevan Haybusak University",
+                    subtitle: "Dentistry",
+                    text: "2012 - 2018",
+                    subject: "education",
+                },
+                {
+                    id: Math.random().toString(36).substring(2),
+                    title: "Haybusak College",
+                    subtitle: "Dental Technician",
+                    text: "2009 - 2012",
+                    subject: "education",
+                }
             ]
         },
     ],

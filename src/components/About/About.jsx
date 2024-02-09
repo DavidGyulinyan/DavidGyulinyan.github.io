@@ -24,9 +24,8 @@ const About = () => {
                     <p className="about__description">
                         I'm a front-end developer. Passionate about creating beautiful and functional user interfaces that enhance the user experience.
                         <br/><br/>
-                        As a front-end developer, I have worked with a variety of technologies such as HTML, CSS, JavaScript, and React. I have experience in creating responsive and accessible websites and web applications that are optimized for performance.
-                        <br/><br/>
-                        My design skills and attention to detail are always at the forefront of my work, ensuring that the final product is not only functional but also visually appealing. I have collaborated with designers, developers, and project managers to deliver high-quality projects that meet client's requirements and exceed expectations.
+                      
+                        My design skills and attention to details are always at the forefront of my work, ensuring that the final product is not only functional but also visually appealing. I have collaborated with designers, developers, and project managers to deliver high-quality projects that meet client's requirements and exceed expectations.
 
                            </p>
                     <a
