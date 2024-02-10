@@ -29,7 +29,7 @@ const About = () => {
 
                            </p>
                     <a
-                        download="My CV"
+                        download="Davit_Gyulinyan_CV"
                         href={CV}
                         className="button button--flex"
                     >

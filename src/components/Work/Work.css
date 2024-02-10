@@ -21,7 +21,7 @@
 }
 
 .work__container {
-    grid-template-columns: repeat(4, max-content);
+    grid-template-columns: repeat(2, max-content);
     gap: 3rem;
     justify-content: center;
 }
@@ -37,7 +37,7 @@
 
 .work__card-content {
     height: 200px;
-overflow: hidden;
+    overflow: hidden;
 }
 
 .work__img {
@@ -115,6 +115,7 @@ overflow: hidden;
         width: 100%;
     }
 }
+
 /* for small devices */
 @media screen and (max-width: 350px) {
     .work__item {
@@ -125,12 +126,3 @@ overflow: hidden;
         column-gap: .25rem;
     }
 }
-
-
-
-
-
-
-
-
-

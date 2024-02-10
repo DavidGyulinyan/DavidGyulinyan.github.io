@@ -55,7 +55,7 @@
 }
 
 .home__description {
-    min-width: 400px;
+    min-width: 50px;
     margin-bottom: var(--mb-3);
 
 }
