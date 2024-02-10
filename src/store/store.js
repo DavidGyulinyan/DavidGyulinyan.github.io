@@ -23,7 +23,7 @@ export const store = {
         },
         {
             id: Math.random().toString(36).substring(2),
-            href: "https://www.linkedin.com/in/david-gyulinyan-9834ab215/",
+            href: "https://www.linkedin.com/in/david-gyulinyan/",
             Icon: <i className="uil uil-linkedin-alt" />,
         },
         {
