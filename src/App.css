@@ -9,10 +9,10 @@
     --hue: 0;
     --sat: 0%;
     --title-color: hsl(var(--hue), var(--sat), 35%);
-    --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+    --title-color-light: rgb(158, 149, 149);
     --text-color: hsl(var(--hue), var(--sat), 46%);
-    --body-color: hsl(var(--hue), var(--sat), 98%);
-    --container-color: #fff;
+    --body-color: rgb(17, 14, 14);
+    --container-color: rgb(0, 0, 0);
 
     /* FONT AND TYPEOGRAPHY */
     --body-font: "Poppins", sans-serif;
@@ -159,6 +159,7 @@ img {
 
 .button:hover {
     background-color: var(--title-color-dark);
+    color: var(--text-color);
 }
 
 .button__icon {

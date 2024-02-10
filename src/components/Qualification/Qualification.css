@@ -27,7 +27,7 @@
 }
 
 .qualification__active {
-    color: var(--title-color-dark);
+    color: var(--title-color-light);
     transform: scale(1.2);
     transition: .1s;
 }
