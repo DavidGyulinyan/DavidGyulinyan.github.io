@@ -117,7 +117,7 @@ export const store = {
             id: Math.random().toString(36).substring(2),
             image: Image3,
             alt: "image 3",
-            title: "Sarah Cill Tahmanjyan",
+            title: "Sarah Cill Tahmanjian",
             description:
                 "David is always open to feedback and suggestions, and his willingness to iterate and improve was evident in the quality of his work. His communication skills was also top-notch, which made it easy to work with him despite being in different time zones. I would not hesitate to work with David again in the future.",
         },
@@ -125,7 +125,7 @@ export const store = {
             id: Math.random().toString(36).substring(2),
             image: Image4,
             alt: "image 4",
-            title: "Grigory Serpokrylov",
+            title: "Ilya Serpokrylov",
             description:
                 "His ability to think outside the box and come up with creative solutions to challenging problems is truly impressive. He is an excellent communicator and always keeps the project stakeholders informed of his progress. I highly recommend David for any React development project.",
         },
