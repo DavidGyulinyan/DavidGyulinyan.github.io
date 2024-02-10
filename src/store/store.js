@@ -1,5 +1,5 @@
 import React from "react";
-import Image1 from "../assets/testimonial1.jpg";
+import Image1 from "../assets/testimonial1.jfif";
 import Image2 from "../assets/testimonial2.png";
 import Image3 from "../assets/testimonial3.jpg";
 import Image4 from "../assets/testimonial4.jpg";
@@ -101,7 +101,7 @@ export const store = {
             id: Math.random().toString(36).substring(2),
             image: Image1,
             alt: "image 1",
-            title: "Dmitri Dyachkov",
+            title: "Grigor Osipyan",
             description:
                 "Highly skilled and dedicated React developer who brings a wealth of knowledge and expertise to every project he works on. He is a great team player and always goes above and beyond to ensure that his work meets the project's goals and requirements.",
         },
@@ -109,7 +109,7 @@ export const store = {
             id: Math.random().toString(36).substring(2),
             image: Image2,
             alt: "image 2",
-            title: "Marry Clinton",
+            title: "Tatevik Hakobyan",
             description:
                 "Always took the time to explain his approach and made sure we were comfortable with the direction he was taking. His attention to details and ability to write clean, efficient code were evident in the final product. I would highly recommend David to anyone looking for a skilled and reliable React developer."
         },
@@ -117,7 +117,7 @@ export const store = {
             id: Math.random().toString(36).substring(2),
             image: Image3,
             alt: "image 3",
-            title: "Sara Cill",
+            title: "Sarah Cill Tahmanjyan",
             description:
                 "David is always open to feedback and suggestions, and his willingness to iterate and improve was evident in the quality of his work. His communication skills was also top-notch, which made it easy to work with him despite being in different time zones. I would not hesitate to work with David again in the future.",
         },
@@ -125,7 +125,7 @@ export const store = {
             id: Math.random().toString(36).substring(2),
             image: Image4,
             alt: "image 4",
-            title: "Adam Vite",
+            title: "Grigory Serpokrylov",
             description:
                 "His ability to think outside the box and come up with creative solutions to challenging problems is truly impressive. He is an excellent communicator and always keeps the project stakeholders informed of his progress. I highly recommend David for any React development project.",
         },
