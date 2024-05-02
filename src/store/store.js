@@ -4,14 +4,11 @@ import Image2 from "../assets/testimonial2.png";
 import Image3 from "../assets/testimonial3.jpg";
 import Image4 from "../assets/testimonial4.jpg";
 
-import Work1 from "../assets/work1.png";
-import Work2 from "../assets/work2.png";
-import Work3 from "../assets/work3.png";
+
 import Work4 from "../assets/work4.png";
 import Work5 from "../assets/work5.png";
 import Work6 from "../assets/work6.png";
 import Work7 from "../assets/work7.png";
-import Work8 from "../assets/work8.png";
 
 
 const generateUniqueIds = () => {
@@ -399,30 +396,6 @@ export const store = {
         },
         {
             id: generateUniqueIds(),
-            image: Work8,
-            title: "Focus Design Studio",
-            category: 'web',
-            link: "https://github.com/DavidGyulinyan/focus-design-studio",
-            view: "GitHub"
-        },
-        {
-            id: generateUniqueIds(),
-            image: Work1,
-            title: "Interior design studio",
-            category: "web",
-            link: "https://github.com/DavidGyulinyan/interior-design-website",
-            view: "GitHub"
-        },
-        {
-            id: generateUniqueIds(),
-            image: Work2,
-            title: "Sunset Lodge hotel",
-            category: "web",
-            link: "https://github.com/DavidGyulinyan/sunset_lodge",
-            view: "GitHub"
-        },
-        {
-            id: generateUniqueIds(),
             image: Work6,
             title: "Inknoos meetup web page",
             category: "design",
@@ -431,18 +404,10 @@ export const store = {
         },
         {
             id: generateUniqueIds(),
-            image: Work3,
-            title: "RithmStyle",
-            category: "web",
-            link: "https://github.com/DavidGyulinyan/RitmStyle",
-            view: "GitHub"
-        },
-        {
-            id: generateUniqueIds(),
             image: Work4,
-            title: "Guest house",
+            title: "Astronomy Explorer",
             category: "web",
-            link: "https://github.com/DavidGyulinyan/Norwegian-style-guest-house",
+            link: "https://github.com/DavidGyulinyan/astronomy_explorer",
             view: "GitHub"
         },
         {
